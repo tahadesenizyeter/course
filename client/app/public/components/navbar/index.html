@@ -1,0 +1,16 @@
+<template name="componentsNavbar">
+
+
+
+    <nav class="navbar">
+    <ul>
+      <li class="nav-item {{isActiveRoute 'public.home'}}"><a href="{{pathFor 'public.home'}}" >Ana Sayfa</a></li>
+      <li class="nav-item {{isActiveRoute 'public.about'}}"><a href=" {{pathFor 'public.about'}}">Hakkımızda</a></li>
+      <li class="nav-item {{isActiveRoute 'public.working'}}"><a href="{{pathFor 'public.working'}}">İşleyiş</a></li>
+      <li class="nav-item {{isActiveRoute 'public.contact'}}"><a href="{{pathFor 'public.contact'}}">İletişim</a></li>
+    </ul>
+  </nav>
+
+
+
+</template>
